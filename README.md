@@ -38,11 +38,11 @@
 | `Jam.Menit`: Numerik, 14.00                  |                                                                                                    |
 | `Zona Waktu`: Indonesia/Asia/Jakarta (WIB) |                                                                                                    |
 
-## Instalasi
+## ⚒️ Instalasi
 
-### <img style="margin: 0 2px -1px 0" height=16 src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-07-04/50a84d541c2f7c791c9c3f9faeafe352.ico.png"> <img style="margin: 0 2px -1px 0" height=16 src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-07-04/afdcf7209fcd4b14fb521ee04f24e676.ico.png"> Console Browser:
+### <img style="margin: 0 2px -1px 0" height=16 src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-07-04/50a84d541c2f7c791c9c3f9faeafe352.ico.png"> <img style="margin: 0 2px -1px 0" height=16 src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-07-04/afdcf7209fcd4b14fb521ee04f24e676.ico.png"> Console Browser
 
-1. Buka website <a href="https://kampusmerdeka.kemdikbud.go.id/" target="_blank">kampusmerdeka.kemdikbud.go.id</a> menggunakan desktop PC / Laptop | Windows / macOS
+1. Buka website <a href="https://kampusmerdeka.kemdikbud.go.id/" target="_blank">kampusmerdeka.kemdikbud.go.id</a> melalui browser desktop PC / Laptop | Windows / macOS
 2. Pastikan anda telah login
 3. Buka devtools pada browser anda dengan cara:
   * <img style="margin: 0 2px -1px 0" height=16 src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-07-04/50a84d541c2f7c791c9c3f9faeafe352.ico.png"> `Windows` | Chrome / Firefox / Microsoft Edge / Opera / Brave / Vivaldi , gunakan shortcut keyboard `CTRL + SHIFT + J` / `Klik Kanan > Inspect > Console`
@@ -213,3 +213,32 @@ main();
 ![image](https://github.com/okkidwi/Cek-Status-Data-SPTJM-SR-Kampus-Merdeka/assets/64502893/3a58788e-7083-4e28-840f-f2360c8fef3c)
 
 </div>
+
+### <img style="margin: 0 2px -0.065rem 0" height=17 src="https://i.imgur.com/SATGr8j.png"> <img style="margin: 0 2px -0.035rem 1px" height=17.5 src="https://i.imgur.com/wcCg3al.png"> Userscript
+
+1. Instal ekstensi <a href="https://www.tampermonkey.net/index.php" target="_blank">Tampermonkey</a>
+2. Instal userscript <a href="" target="_blank">Cek Status Data SPTJM & SR | Kampus Merdeka Batch 5 2023</a> (akan dimuat secara otomatis di pengelola skrip pengguna)
+3. Buka website <a href="https://kampusmerdeka.kemdikbud.go.id/" target="_blank">kampusmerdeka.kemdikbud.go.id</a> melalui browser desktop PC / Laptop | Windows / macOS
+4. Pastikan anda telah login
+5. Buka devtools pada browser anda dengan cara:
+  * <img style="margin: 0 2px -1px 0" height=16 src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-07-04/50a84d541c2f7c791c9c3f9faeafe352.ico.png"> `Windows` | Chrome / Firefox / Microsoft Edge / Opera / Brave / Vivaldi , gunakan shortcut keyboard `CTRL + SHIFT + J` / `Klik Kanan > Inspect > Console`
+    
+  * <img style="margin: 0 2px -1px 0" height=16 src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-07-04/afdcf7209fcd4b14fb521ee04f24e676.ico.png"> `macOS` | Safari, gunakan shortcut keyboard `CMD + OPTION + J`
+    
+6. Status data SPTJM & Surat Rekomendasi (SR) anda bisa terlihat secara otomatis
+
+<div align="center">
+
+*Contoh ketika status data SPTJM & Surat Rekomendasi (SR) anda sedang dalam proses review</center>*
+
+![image](https://github.com/okkidwi/Cek-Status-Data-SPTJM-SR-Kampus-Merdeka/assets/64502893/201aecf6-849c-4bbb-b41a-51610e34aaef)
+
+</div>
+
+## ⭐ Star History
+
+<div align="center">
+
+<img src="https://api.star-history.com/svg?repos=okkidwi/Cek-Status-Data-SPTJM-SR-Kampus-Merdeka&type=Date" width="600" height="400" alt="Star History Chart" valign="middle">
+    
+</div>    
