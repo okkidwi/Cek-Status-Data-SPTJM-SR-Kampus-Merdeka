@@ -31,12 +31,21 @@
 
 | `(Hari, Tanggal Bulan Tahun pukul [Jam & Menit]`                           | `(Status Data)`                                                                                        |
 | -------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| `Hari`: Numeric, contoh: Senin                 | `ON_REVIEW`: Data SPTJM & Surat Rekomendasi (SR) anda sedang dalam proses review                      |
-| `Tanggal`: Numeric, contoh: 15                  | `VERIFIED`: Data SPTJM & Surat Rekomendasi (SR) anda telah terverifikasi                             |
-| `Bulan`: Long, contoh: Januari                 | `REJECTED`: Data SPTJM & Surat Rekomendasi (SR) anda ditolak                                        |
+| `Hari`: Numeric, contoh: Rabu                 | `ON_REVIEW`: Data SPTJM & Surat Rekomendasi (SR) anda sedang dalam proses review                      |
+| `Tanggal`: Numeric, contoh: 5                  | `VERIFIED`: Data SPTJM & Surat Rekomendasi (SR) anda telah terverifikasi                             |
+| `Bulan`: Long, contoh: Juli                 | `REJECTED`: Data SPTJM & Surat Rekomendasi (SR) anda ditolak                                        |
 | `Tahun`: Numerik, contoh: 2023                 |                                                                                                    |
-| `Jam.Menit`: Numerik, 14.00                  |                                                                                                    |
+| `Jam.Menit`: Numerik, 04.49                  |                                                                                                    |
 | `Zona Waktu`: Indonesia/Asia/Jakarta (WIB) |                                                                                                    |
+
+| `(Hari, Tanggal Bulan Tahun pukul [Jam:Menit]`                      | `(Status Data)`                                                                                        |
+| -------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| `Hari`: Teks, contoh: Rabu                 | `ON_REVIEW`: Data SPTJM & Surat Rekomendasi (SR) anda sedang dalam proses review                      |
+| `Tanggal`: Angka, contoh: 5                  | `VERIFIED`: Data SPTJM & Surat Rekomendasi (SR) anda telah terverifikasi                             |
+| `Bulan`: Teks, contoh: Juli                 | `REJECTED`: Data SPTJM & Surat Rekomendasi (SR) anda ditolak                                        |
+| `Tahun`: Angka, contoh: 2023                 |                                                                                                    |
+| `Jam:Menit`: Angka, contoh: 04:49                  |                                                                                                    |
+| `Zona Waktu`: Teks, contoh: Indonesia/Asia/Jakarta (WIB) |                                                                                                    |
 
 ## ⚒️ Instalasi
 
