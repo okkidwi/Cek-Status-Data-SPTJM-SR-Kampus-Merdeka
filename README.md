@@ -4,7 +4,7 @@
 
 <div align="center">
 
-### Sebuah Userscript yang Ditulis Meenggunakan `Javascript`
+### Sebuah Userscript yang Ditulis Menggunakan `Javascript`
 
 [![](https://img.shields.io/badge/Author-okkidwi-green.svg)](https://github.com/okkdwi)
 [![](https://img.shields.io/github/license/okkidwi/chathub?Cek-Status-Data-SPTJM-SR-Kampus-Merdeka=green)](../LICENSE.md)
@@ -14,7 +14,10 @@
 
 ### Instal
 
+<a href="https://chatgptwidescreen.com/greasyfork" target="_blank"><img height="44px" src="https://cdn4.iconfinder.com/data/icons/science-and-tech/68/browser_code_program_function_digital_console-512.png" alt="Instal Melalui Console Browser"></a>
 <a href="https://chatgptwidescreen.com/greasyfork" target="_blank"><img height="44px" src="https://raw.githubusercontent.com/adamlui/chatgpt-widescreen/main/media/images/badges/greasy-fork/available-on-greasy-fork-gold-square-border-light-816x262.png" alt="Instal Melalui Greasyfork"></a>
+
+https://cdn4.iconfinder.com/data/icons/science-and-tech/68/browser_code_program_function_digital_console-512.png
 
 </div>
 
