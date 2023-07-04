@@ -47,8 +47,10 @@
     
   * <img style="margin: 0 2px -1px 0" height=16 src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-07-04/afdcf7209fcd4b14fb521ee04f24e676.ico.png"> `macOS` | Safari, gunakan shortcut keyboard `CMD + OPTION + J`
     
-![Screenshot 2023-07-05 043823](https://github.com/okkidwi/Cek-Status-Data-SPTJM-SR-Kampus-Merdeka/assets/64502893/9e9ab4e6-b951-41df-ab3a-4a57dafe67af)
 4. Copy & paste kode yang dilampirkan dibawah, kemudian tekan Enter
+
+![Screenshot 2023-07-05 043823](https://github.com/okkidwi/Cek-Status-Data-SPTJM-SR-Kampus-Merdeka/assets/64502893/9e9ab4e6-b951-41df-ab3a-4a57dafe67af)
+
 ```
   const printErrorShouldLoginBefore = () => {
     console.log(
