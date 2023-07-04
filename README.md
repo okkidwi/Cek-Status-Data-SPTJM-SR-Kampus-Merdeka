@@ -204,5 +204,5 @@ main();
 ```
 5. Silahkan tunggu sebentar, dan baca status data yang ditampilkan pada console tersebut
 
-*Contoh ketika status data SPTJM & Surat Rekomendasi (SR) anda sedang dalam proses review*
+<"center">*Contoh ketika status data SPTJM & Surat Rekomendasi (SR) anda sedang dalam proses review*</center">
 ![image](https://github.com/okkidwi/Cek-Status-Data-SPTJM-SR-Kampus-Merdeka/assets/64502893/3a58788e-7083-4e28-840f-f2360c8fef3c)
