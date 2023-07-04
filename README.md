@@ -22,10 +22,10 @@
 
 - Menampilkan status data SPTJM & Surat Rekomendasi (SR) Kampus Merdeka yang telah anda upload di https://kampusmerdeka.kemdikbud.go.id seperti:
   
-  * Status `KESALAHAN, SKRIP GAGAL MENGURAI DATA ANDA`: skrip tidak berjalan dengan sempurna, install kembali skrip diatas
-  * Status `Data SPTJM atau SURAT REKOMENDASI tidak ditemukan`: data SPTJM & Surat Rekomendasi (SR) belum anda upload
-  * `(Hari, Tanggal Bulan Tahun pukul [Jam & Menit] Zona Waktu)` Status SPTJM anda adalah `(Status Data)`
-  * `(Hari, Tanggal Bulan Tahun pukul [Jam & Menit] Zona Waktu)` Status Surat Rekomendasi anda adalah `(Status Data)`
+  * Status `KESALAHAN, SKRIP GAGAL MENGURAI DATA ANDA`: Skrip tidak berjalan dengan sempurna, install kembali skrip diatas
+  * Status `Data SPTJM atau SURAT REKOMENDASI tidak ditemukan`: Data SPTJM & Surat Rekomendasi (SR) belum anda upload
+  * `(Hari, Tanggal Bulan Tahun pukul [Jam.Menit] Zona Waktu)` Status SPTJM anda adalah `(Status Data)`
+  * `(Hari, Tanggal Bulan Tahun pukul [Jam.Menit] Zona Waktu)` Status Surat Rekomendasi anda adalah `(Status Data)`
 
 | `(Hari, Tanggal Bulan Tahun pukul [Jam & Menit]`                           | `(Status Data)`                                                                                        |
 | -------------------------------------------- | ------------------------------------------------------------------------------------------------ |
@@ -33,5 +33,168 @@
 | `Tanggal`: Numeric, contoh: 15                  | `VERIFIED`: Data SPTJM & Surat Rekomendasi (SR) anda telah terverifikasi                             |
 | `Bulan`: Long, contoh: Januari                 | `REJECTED`: Data SPTJM & Surat Rekomendasi (SR) anda ditolak                                        |
 | `Tahun`: Numerik, contoh: 2023                 |                                                                                                    |
-| `Jam & Menit`: Numerik, 14.00                  |                                                                                                    |
+| `Jam.Menit`: Numerik, 14.00                  |                                                                                                    |
 | `Zona Waktu`: Indonesia/Asia/Jakarta (WIB) |                                                                                                    |
+
+## Pemasangan
+
+### <img style="margin: 0 2px -1px 0" height=16 src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-07-04/50a84d541c2f7c791c9c3f9faeafe352.ico.png"> <img style="margin: 0 2px -1px 0" height=16 src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-07-04/afdcf7209fcd4b14fb521ee04f24e676.ico.png"> Console Browser:
+
+1. Buka website https://kampusmerdeka.kemdikbud.go.id menggunakan desktop PC / Laptop | Windows / macOS
+2. Pastikan anda telah login
+3. Buka devtools pada browser anda dengan cara:
+  * Windows | Chrome / Firefox / Microsoft Edge / Opera / Brave / Vivaldi , gunakan shortcut keyboard `CTRL + SHIFT + J` / `Klik Kanan > Inspect > Console`
+  * macOS | Safari, gunakan shortcut keyboard `CMD + OPTION + J`
+4. Copy & paste kode yang dilampirkan dibawah, kemudian tekan Enter
+5. Silahkan tunggu sebentar, dan baca status data yang ditampilkan pada console tersebut
+```
+  const printErrorShouldLoginBefore = () => {
+    console.log(
+      '%cKESALAHAN, SKRIP GAGAL MENGURAI DATA ANDA',
+      'font-size: 18px; color: #f00; background: #000;'
+    );
+    throw new Error('NOT_LOGGED_IN');
+  };
+
+  const printGenericError = (err) => {
+    console.log(
+      `%cError: ${err}`,
+      'font-size: 18px; color: #f00; background: #000;'
+    );
+    throw err;
+  };
+
+  const currentCycle = 5;
+
+  const userLocalKey = `@mkbm/manager/user`;
+  const storageData = localStorage.getItem(userLocalKey);
+  if (!storageData) {
+    printErrorShouldLoginBefore();
+  }
+  const storageDataParsed = JSON.parse(storageData);
+  if (!storageDataParsed) {
+    printErrorShouldLoginBefore();
+  }
+  const token = storageDataParsed?.value?.token;
+  if (!token) {
+    printErrorShouldLoginBefore();
+  }
+
+  const abortController = new AbortController();
+
+  const getActiveDocuments = async () => {
+    const resp = await fetch(
+      'https://api.kampusmerdeka.kemdikbud.go.id/v1alpha1/documents?type=SPTJM,SURAT_REKOMENDASI&programs=Magang',
+      {
+        signal: abortController.signal,
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      }
+    ).then((resp) => resp.json());
+    const docs = resp.data;
+    const mapDocumentByType = {};
+    docs.forEach((doc) => {
+      if (!(doc.type in mapDocumentByType)) {
+        mapDocumentByType[doc.type] = [];
+      }
+
+      doc.cycle_int = Number.parseInt(doc.cycle);
+      mapDocumentByType[doc.type].push(doc);
+    });
+
+    return mapDocumentByType;
+  };
+
+  const getDocumentLatestCycle = (currentCycle, data) => {
+    const sortedData = [...data].sort(
+      (docA, docB) => docB.cycle_int - docA.cycle_int
+    );
+    return sortedData.find((doc) => doc.cycle_int <= currentCycle);
+  };
+
+  const getUserDocumentStatus = async (docId, docType) => {
+    const resp = await fetch(
+      `https://api.kampusmerdeka.kemdikbud.go.id/v1alpha1/documents/${docId}/users`,
+      {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      }
+    ).then((resp) => resp.json());
+
+    const status = resp?.data?.status;
+    if (!status) {
+      return `DATA ${docType} TIDAK DAPAT DITEMUKAN`;
+    }
+
+    return status;
+  };
+
+  const getCurrentDateTimeWIB = () => {
+    const date = new Date();
+    const options = {
+      weekday: 'long',
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+      hour: 'numeric',
+      minute: 'numeric',
+      timeZone: 'Asia/Jakarta',
+    };
+    return date.toLocaleString('id-ID', options);
+  };
+
+  const main = async () => {
+    try {
+      const documentMapped = await getActiveDocuments();
+      const docsSPTJM = documentMapped['SPTJM'];
+      const docsSR = documentMapped['SURAT_REKOMENDASI'];
+
+      if (!docsSPTJM || !docsSR) {
+        throw 'Data SPTJM atau SURAT REKOMENDASI tidak ditemukan';
+      }
+
+      const validDocSPTJM = getDocumentLatestCycle(currentCycle, docsSPTJM);
+      const validDocsSR = getDocumentLatestCycle(currentCycle, docsSR);
+
+      if (!validDocSPTJM || !validDocsSR) {
+        throw 'Data SPTJM atau SURAT REKOMENDASI tidak ditemukan';
+      }
+
+      const sptjmId = validDocSPTJM.id;
+      const srId = validDocsSR.id;
+      const statusUserSptjm = await getUserDocumentStatus(sptjmId, 'SPTJM');
+      const statusUserSr = await getUserDocumentStatus(srId, 'SURAT REKOMENDASI');
+
+      const dateTimeWIB = getCurrentDateTimeWIB();
+
+      console.log(
+        `%c[${dateTimeWIB} WIB] Status SPTJM anda adalah %c${statusUserSptjm}`,
+        'font-size: 24px; color: black; background: white;',
+        `font-size: 30px; background: ${
+          statusUserSptjm === 'VERIFIED'
+            ? 'green'
+            : statusUserSptjm === 'REJECTED'
+            ? 'red'
+            : 'blue'
+        }; color: white;`
+      );
+      console.log(
+        `%c[${dateTimeWIB} WIB] Status SURAT REKOMENDASI anda adalah %c${statusUserSr}`,
+        'font-size: 24px; color: black; background: white;',
+        `font-size: 30px; background: ${
+          statusUserSr === 'VERIFIED'
+            ? 'green'
+            : statusUserSr === 'REJECTED'
+            ? 'red'
+            : 'blue'
+        }; color: white;`
+      );
+    } catch (err) {
+      printGenericError(err);
+    }
+  };
+
+main();
+```
