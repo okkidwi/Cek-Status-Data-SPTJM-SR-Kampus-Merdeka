@@ -1,4 +1,4 @@
-![image](https://github.com/okkidwi/cek-status-data-sptjm-sr-kampus-merdeka/assets/64502893/bcb0b5ff-801b-4c7b-989d-cc84b04c2d65)
+![image](https://github.com/okkidwi/cek-status-data-sptjm-sr-kampus-merdeka/assets/64502893/3a58788e-7083-4e28-840f-f2360c8fef3c)
 
 <h1 align="center">Cek Status SPTJM & Surat Rekomendasi (SR) Kampus Merdeka Batch 5 Tahun 2023</h1>
 
