@@ -7,7 +7,7 @@
 ### Sebuah Userscript yang Ditulis Menggunakan `Javascript`
 
 [![](https://img.shields.io/badge/Author-okkidwi-green.svg)](https://github.com/okkidwi)
-[![](https://img.shields.io/github/license/okkidwi/cek-status-data-sptjm-sr-kampus-merdeka?color=blue)](../LICENSE.md)
+[![](https://img.shields.io/github/license/okkidwi/cek-status-data-sptjm-sr-kampus-merdeka?color=blue)](/LICENSE.md)
 [![](https://img.shields.io/badge/Support-Chrome/Firefox/Mircosoft-Edge/Opera/Brave/Vivaldi/Safari-989898.svg)](#compatibility)
 [![](https://img.shields.io/github/commit-activity/m/okkidwi/cek-status-data-sptjm-sr-kampus-merdeka?label=Commits)](https://github.com/okkidwi/cek-status-data-sptjm-sr-kampus-merdeka/commits/main)
 [![](https://img.shields.io/github/last-commit/okkidwi/cek-status-data-sptjm-sr-kampus-merdeka?label=last%20commit)](https://github.com/okkidwi/cek-status-data-sptjm-sr-kampus-merdeka/commits)
