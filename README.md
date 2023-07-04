@@ -1,6 +1,6 @@
 ![image](https://github.com/okkidwi/Cek-Status-Data-SPTJM-SR-Kampus-Merdeka/assets/64502893/bcb0b5ff-801b-4c7b-989d-cc84b04c2d65)
 
-<h1 align="center">Cek Status Data SPTJM & SR Kampus Merdeka</h1>
+<h1 align="center">Cek Status Surat Rekomendasi (SR) SPTJM & SR Kampus Merdeka</h1>
 
 <div align="center">
 
@@ -45,8 +45,7 @@
 3. Buka devtools pada browser anda dengan cara:
   * <img style="margin: 0 2px -1px 0" height=16 src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-07-04/50a84d541c2f7c791c9c3f9faeafe352.ico.png"> `Windows` | Chrome / Firefox / Microsoft Edge / Opera / Brave / Vivaldi , gunakan shortcut keyboard `CTRL + SHIFT + J` / `Klik Kanan > Inspect > Console`
   * <img style="margin: 0 2px -1px 0" height=16 src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-07-04/afdcf7209fcd4b14fb521ee04f24e676.ico.png"> `macOS` | Safari, gunakan shortcut keyboard `CMD + OPTION + J`
-4. Copy & paste kode yang dilampirkan dibawah, kemudian tekan Enter
-5. Silahkan tunggu sebentar, dan baca status data yang ditampilkan pada console tersebut
+4. COPY & PASTE kode yang dilampirkan dibawah, kemudian tekan Enter
 ```
   const printErrorShouldLoginBefore = () => {
     console.log(
@@ -198,3 +197,4 @@
 
 main();
 ```
+5. Silahkan tunggu sebentar, dan baca status data yang ditampilkan pada console tersebut
