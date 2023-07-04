@@ -1,11 +1,10 @@
 ![image](https://github.com/okkidwi/Cek-Status-Data-SPTJM-SR-Kampus-Merdeka/assets/64502893/bcb0b5ff-801b-4c7b-989d-cc84b04c2d65)
 
-<h1 align="center">Cek Status SPTJM & Surat Rekomendasi (SR)
-Kampus Merdeka Batch 5 Tahun 2023</h1>
+<h1 align="center">Cek Status SPTJM & Surat Rekomendasi (SR) Kampus Merdeka Batch 5 Tahun 2023</h1>
 
 <div align="center">
 
-### Sebuah Userscript Untuk Mengecek Status Data SPTJM & Surat Rekomendasi (SR) Kampus Merdeka Batch 5 Tahun 2023
+### Sebuah Userscript yang Ditulis Meenggunakan `Javascript`
 
 [![](https://img.shields.io/badge/Author-okkidwi-green.svg)](https://github.com/okkdwi)
 [![](https://img.shields.io/github/license/okkidwi/chathub?Cek-Status-Data-SPTJM-SR-Kampus-Merdeka=green)](../LICENSE.md)
