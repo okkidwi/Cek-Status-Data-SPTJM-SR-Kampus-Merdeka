@@ -14,7 +14,7 @@
 
 ### Instal
 
-<a href="https://chatgptwidescreen.com/greasyfork" target="_blank"><img height="44px" src="https://cdn4.iconfinder.com/data/icons/science-and-tech/68/browser_code_program_function_digital_console-512.png" alt="Instal Melalui Console Browser"></a>
+<a href="https://chatgptwidescreen.com/greasyfork" target="_blank"><img height="44px" src="https://cdn-media-1.freecodecamp.org/images/1*98a_Z2uEDzLDmjPM4k37iQ.png" alt="Instal Melalui Console Browser"></a>
 <a href="https://chatgptwidescreen.com/greasyfork" target="_blank"><img height="44px" src="https://raw.githubusercontent.com/adamlui/chatgpt-widescreen/main/media/images/badges/greasy-fork/available-on-greasy-fork-gold-square-border-light-816x262.png" alt="Instal Melalui Greasyfork"></a>
 
 https://cdn4.iconfinder.com/data/icons/science-and-tech/68/browser_code_program_function_digital_console-512.png
