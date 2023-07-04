@@ -25,12 +25,12 @@
 - Menampilkan status data SPTJM & Surat Rekomendasi (SR) Kampus Merdeka yang telah anda upload di https://kampusmerdeka.kemdikbud.go.id seperti:
   * Status KESALAHAN, SKRIP GAGAL MENGURAI DATA ANDA: skrip tidak berjalan dengan sempurna, install kembali skrip diatas
   * Status Data SPTJM atau SURAT REKOMENDASI tidak ditemukan: data SPTJM & Surat Rekomendasi (SR) belum anda upload
-  * (Hari, Tanggal Bulan Tahun pukul [Jam & Menit] Zona Waktu) Status SPTJM anda adalah (Status Data)
-  * (Hari, Tanggal Bulan Tahun pukul [Jam & Menit] Zona Waktu) Status Surat Rekomendasi anda adalah (Status Data)
+  * `(Hari, Tanggal Bulan Tahun pukul [Jam & Menit] Zona Waktu)` Status SPTJM anda adalah `(Status Data)`
+  * `(Hari, Tanggal Bulan Tahun pukul [Jam & Menit] Zona Waktu)` Status Surat Rekomendasi anda adalah `(Status Data)`
 
-| (Hari, Tanggal Bulan Tahun pukul [Jam & Menit]                           | (Status Data)                                                                                        |
+| `(Hari, Tanggal Bulan Tahun pukul [Jam & Menit]`                           | `(Status Data)`                                                                                        |
 | -------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| Hari: Numeric, contoh: Senin                 | ON_REVIEW: Data SPTJM & Surat Rekomendasi (SR) anda sedang dalam proses review                      |
+| `Hari`: Numeric, contoh: Senin                 | ON_REVIEW: Data SPTJM & Surat Rekomendasi (SR) anda sedang dalam proses review                      |
 | Tanggal: Numeric, contoh: 15                  | VERIFIED: Data SPTJM & Surat Rekomendasi (SR) anda telah terverifikasi                             |
 | Bulan: Long, contoh: Januari                 | REJECTED: Data SPTJM & Surat Rekomendasi (SR) anda ditolak                                        |
 | Tahun: Numerik, contoh: 2023                 |                                                                                                    |
