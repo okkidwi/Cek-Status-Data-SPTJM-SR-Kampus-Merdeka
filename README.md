@@ -53,6 +53,9 @@
 
 ![Screenshot 2023-07-05 043823](https://github.com/okkidwi/Cek-Status-Data-SPTJM-SR-Kampus-Merdeka/assets/64502893/9e9ab4e6-b951-41df-ab3a-4a57dafe67af)
 
+<details>
+<summary>Tekan untuk melihat kode</summary>
+  
 ```
   const printErrorShouldLoginBefore = () => {
     console.log(
@@ -204,6 +207,9 @@
 
 main();
 ```
+
+</details>
+
 5. Silahkan tunggu sebentar, dan baca status data yang ditampilkan pada console tersebut
 
 <div align="center">
