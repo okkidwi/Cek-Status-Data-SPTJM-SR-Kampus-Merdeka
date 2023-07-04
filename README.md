@@ -7,7 +7,7 @@
 ### Sebuah Userscript yang Ditulis Menggunakan `Javascript`
 
 [![](https://img.shields.io/badge/Author-okkidwi-green.svg)](https://github.com/okkdwi)
-[![](https://img.shields.io/github/license/okkidwi/chathub?cek-status-data-sptjm-sr-kampus-merdeka=green)](../LICENSE.md)
+[![](https://img.shields.io/github/license/okkidwi/cek-status-data-sptjm-sr-kampus-merdeka?color=blue)](../LICENSE.md)
 [![](https://img.shields.io/badge/Support-Chrome/Firefox/Mircosoft-Edge/Opera/Brave/Vivaldi/Safari-989898.svg)](#compatibility)
 [![](https://img.shields.io/github/commit-activity/m/okkidwi/cek-status-data-sptjm-sr-kampus-merdeka?label=Commits)](https://github.com/okkidwi/cek-status-data-sptjm-sr-kampus-merdeka/commits/main)
 [![](https://img.shields.io/github/last-commit/okkidwi/cek-status-data-sptjm-sr-kampus-merdeka?label=last%20commit)](https://github.com/okkidwi/cek-status-data-sptjm-sr-kampus-merdeka/commits)
@@ -37,15 +37,6 @@
 | `Tahun`: Numerik, contoh: 2023                 |                                                                                                    |
 | `Jam.Menit`: Numerik, 04.49                  |                                                                                                    |
 | `Zona Waktu`: Indonesia/Asia/Jakarta (WIB) |                                                                                                    |
-
-| `(Hari, Tanggal Bulan Tahun pukul [Jam:Menit]`                      | `(Status Data)`                                                                                        |
-| -------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| `Hari`: Teks, contoh: Rabu                 | `ON_REVIEW`: Data SPTJM & Surat Rekomendasi (SR) anda sedang dalam proses review                      |
-| `Tanggal`: Angka, contoh: 5                  | `VERIFIED`: Data SPTJM & Surat Rekomendasi (SR) anda telah terverifikasi                             |
-| `Bulan`: Teks, contoh: Juli                 | `REJECTED`: Data SPTJM & Surat Rekomendasi (SR) anda ditolak                                        |
-| `Tahun`: Angka, contoh: 2023                 |                                                                                                    |
-| `Jam:Menit`: Angka, contoh: 04:49                  |                                                                                                    |
-| `Zona Waktu`: Teks, contoh: Indonesia/Asia/Jakarta (WIB) |                                                                                                    |
 
 ## ⚒️ Instalasi
 
