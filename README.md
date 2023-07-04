@@ -6,7 +6,7 @@
 
 ### Sebuah Userscript Untuk Mengecek Status Data SPTJM & SR Kampus Merdeka Batch 5 Tahun 2023
 
-[![](https://img.shields.io/badge/Author-okkidwi-orange.svg)](https://github.com/okkdwi)
+[![](https://img.shields.io/badge/Author-okkidwi-green.svg)](https://github.com/okkdwi)
 [![](https://img.shields.io/github/license/okkidwi/chathub?Cek-Status-Data-SPTJM-SR-Kampus-Merdeka=green)](../LICENSE.md)
 [![](https://img.shields.io/badge/Support-Chrome/Firefox/Edge/Opera/Brave/Vivaldi/Safari-989898.svg)](#compatibility)
 [![](https://img.shields.io/github/commit-activity/m/okkidwi/Cek-Status-Data-SPTJM-SR-Kampus-Merdeka?label=Commits)](https://github.com/okkidwi/Cek-Status-Data-SPTJM-SR-Kampus-Merdeka/commits/main)
