@@ -7,8 +7,8 @@
 ### Sebuah Userscript yang Ditulis Menggunakan `Javascript`
 
 [![](https://img.shields.io/badge/Author-okkidwi-green.svg)](https://github.com/okkdwi)
-[![](https://img.shields.io/github/license/okkidwi/chathub?Cek-Status-Data-SPTJM-SR-Kampus-Merdeka=green)](../LICENSE.md)
-[![](https://img.shields.io/badge/Support-Chrome/Firefox/Edge/Opera/Brave/Vivaldi/Safari-989898.svg)](#compatibility)
+[![](https://img.shields.io/github/license/okkidwi/chathub?cek-status-data-sptjm-sr-kampus-merdeka=green)](../LICENSE.md)
+[![](https://img.shields.io/badge/Support-Chrome/Firefox/Mircosoft-Edge/Opera/Brave/Vivaldi/Safari-989898.svg)](#compatibility)
 [![](https://img.shields.io/github/commit-activity/m/okkidwi/cek-status-data-sptjm-sr-kampus-merdeka?label=Commits)](https://github.com/okkidwi/cek-status-data-sptjm-sr-kampus-merdeka/commits/main)
 [![](https://img.shields.io/github/last-commit/okkidwi/cek-status-data-sptjm-sr-kampus-merdeka?label=last%20commit)](https://github.com/okkidwi/cek-status-data-sptjm-sr-kampus-merdeka/commits)
 [![](https://img.shields.io/static/v1?label=%20&message=GreasyFork&style=flat-square&labelColor=7B0000&color=960000&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3ggEBCQHM3fXsAAAAVdJREFUOMudkz2qwkAUhc/goBaGJBgUtBCZyj0ILkpwAW7Bws4yO3AHLiCtEFD8KVREkoiFxZzX5A2KGfN4F04zMN+ce+5c4LMUgDmANYBnrnV+plBSi+FwyHq9TgA2LQpvCiEiABwMBtzv95RSfoNEHy8DYBzHrNVqVEr9BWKcqNFoxF6vx3a7zc1mYyC73a4MogBg7vs+z+czO50OW60Wt9stK5UKp9Mpj8cjq9WqDTBHnjAdxzGQZrPJw+HA31oulzbAWgLoA0CWZVBKIY5jzGYzdLtdE9DlcrFNrY98zobqOA6TJKHW2jg4nU5sNBpFDp6mhVe5rsvVasUwDHm9Xqm15u12o+/7Hy0gD8KatOd5vN/v1FozTVN6nkchxFuI6hsAAIMg4OPxMJCXdtTbR7JJCMEgCJhlGUlyPB4XfumozInrupxMJpRSRtZlKoNYl+m/6/wDuWAjtPfsQuwAAAAASUVORK5CYII=)](https://github.com/okkdwi)
@@ -43,9 +43,9 @@
 ### <img style="margin: 0 2px -1px 0" height=16 src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-07-04/50a84d541c2f7c791c9c3f9faeafe352.ico.png"> <img style="margin: 0 2px -1px 0" height=16 src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-07-04/afdcf7209fcd4b14fb521ee04f24e676.ico.png"> Console Browser
 
 1. Buka website <a href="https://kampusmerdeka.kemdikbud.go.id/" target="_blank">kampusmerdeka.kemdikbud.go.id</a> melalui browser Desktop PC / Laptop berikut:
-  * <img style="margin: 0 2px -1px 0" height=16 src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-07-04/50a84d541c2f7c791c9c3f9faeafe352.ico.png"> `Windows`: Chrome / Firefox / Microsoft Edge / Opera / Brave / Vivaldi
+  * <img style="margin: 0 2px -1px 0" height=16 src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-07-04/50a84d541c2f7c791c9c3f9faeafe352.ico.png"> `Windows`: *Chrome / Firefox / Microsoft Edge / Opera / Brave / Vivaldi*
     
-  * <img style="margin: 0 2px -1px 0" height=16 src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-07-04/afdcf7209fcd4b14fb521ee04f24e676.ico.png"> `macOS` | Safari
+  * <img style="margin: 0 2px -1px 0" height=16 src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-07-04/afdcf7209fcd4b14fb521ee04f24e676.ico.png"> `macOS`: *Safari*
 2. Pastikan anda telah login
 3. Buka devtools pada browser anda dengan cara:
   * <img style="margin: 0 2px -1px 0" height=16 src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-07-04/50a84d541c2f7c791c9c3f9faeafe352.ico.png"> `Windows`: Gunakan shortcut keyboard `CTRL + SHIFT + J` / `Klik Kanan > Inspect > Console`
@@ -219,7 +219,7 @@ main();
   
 *Contoh ketika status data SPTJM & Surat Rekomendasi (SR) anda sedang dalam proses review</center>*
 
-![image](https://github.com/okkidwi/Cek-Status-Data-SPTJM-SR-Kampus-Merdeka/assets/64502893/3a58788e-7083-4e28-840f-f2360c8fef3c)
+![image](https://github.com/okkidwi/cek-status-data-sptjm-sr-kampus-merdeka/assets/64502893/3a58788e-7083-4e28-840f-f2360c8fef3c)
 
 </div>
 
@@ -227,12 +227,15 @@ main();
 
 1. Instal ekstensi <a href="https://www.tampermonkey.net/index.php" target="_blank">Tampermonkey</a>
 2. Instal userscript <a href="" target="_blank">Cek Status Data SPTJM & SR | Kampus Merdeka Batch 5 2023</a> (akan dimuat secara otomatis di pengelola skrip pengguna)
-3. Buka website <a href="https://kampusmerdeka.kemdikbud.go.id/" target="_blank">kampusmerdeka.kemdikbud.go.id</a> melalui browser desktop PC / Laptop | Windows / macOS
+3. Buka website <a href="https://kampusmerdeka.kemdikbud.go.id/" target="_blank">kampusmerdeka.kemdikbud.go.id</a> melalui browser Desktop PC / Laptop berikut:
+  * <img style="margin: 0 2px -1px 0" height=16 src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-07-04/50a84d541c2f7c791c9c3f9faeafe352.ico.png"> `Windows`: *Chrome / Firefox / Microsoft Edge / Opera / Brave / Vivaldi*
+    
+  * <img style="margin: 0 2px -1px 0" height=16 src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-07-04/afdcf7209fcd4b14fb521ee04f24e676.ico.png"> `macOS`: *Safari*
 4. Pastikan anda telah login
 5. Buka devtools pada browser anda dengan cara:
-  * <img style="margin: 0 2px -1px 0" height=16 src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-07-04/50a84d541c2f7c791c9c3f9faeafe352.ico.png"> `Windows` | Chrome / Firefox / Microsoft Edge / Opera / Brave / Vivaldi , gunakan shortcut keyboard `CTRL + SHIFT + J` / `Klik Kanan > Inspect > Console`
+  * <img style="margin: 0 2px -1px 0" height=16 src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-07-04/50a84d541c2f7c791c9c3f9faeafe352.ico.png"> `Windows`: Gunakan shortcut keyboard `CTRL + SHIFT + J` / `Klik Kanan > Inspect > Console`
     
-  * <img style="margin: 0 2px -1px 0" height=16 src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-07-04/afdcf7209fcd4b14fb521ee04f24e676.ico.png"> `macOS` | Safari, gunakan shortcut keyboard `CMD + OPTION + J`
+  * <img style="margin: 0 2px -1px 0" height=16 src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-07-04/afdcf7209fcd4b14fb521ee04f24e676.ico.png"> `macOS`: Gunakan shortcut keyboard `CMD + OPTION + J`
     
 6. Silahkan tunggu sebentar, dan terlihat status data yang ditampilkan secara otomatis pada console tersebut
 
@@ -248,6 +251,6 @@ main();
 
 <div align="center">
 
-<img src="https://api.star-history.com/svg?repos=okkidwi/Cek-Status-Data-SPTJM-SR-Kampus-Merdeka&type=Date" width="600" height="400" alt="Star History Chart" valign="middle">
+<img src="https://api.star-history.com/svg?repos=okkidwi/cek-status-data-sptjm-sr-kampus-merdeka&type=Date" width="600" height="400" alt="Star History Chart" valign="middle">
     
 </div>    
