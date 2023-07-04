@@ -18,8 +18,6 @@
 
 </div>
 
-##
-
 ## ✨ Fitur
 
 - Menampilkan status data SPTJM & Surat Rekomendasi (SR) Kampus Merdeka yang telah anda upload di https://kampusmerdeka.kemdikbud.go.id seperti:
