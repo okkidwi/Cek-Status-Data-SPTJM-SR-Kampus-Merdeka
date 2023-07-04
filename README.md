@@ -22,7 +22,7 @@
 
 ## ✨ Fitur
 
-- Menampilkan status data SPTJM & Surat Rekomendasi (SR) Kampus Merdeka yang telah anda upload di website <img style="margin: 0 2px -1px 0" height=16 src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-07-04/b80d9a0b14a2fd3c85d9bd57a537e96c.ico.png"> <a href="https://kampusmerdeka.kemdikbud.go.id/" target="_blank">kampusmerdeka.kemdikbud.go.id</a> seperti:
+- Menampilkan status data SPTJM & Surat Rekomendasi (SR) Kampus Merdeka yang telah anda upload di website <a href="https://kampusmerdeka.kemdikbud.go.id/" target="_blank">kampusmerdeka.kemdikbud.go.id</a> seperti:
   
   * Status `KESALAHAN, SKRIP GAGAL MENGURAI DATA ANDA`: Skrip tidak berjalan dengan sempurna, instal kembali skrip diatas
   * Status `Data SPTJM atau SURAT REKOMENDASI tidak ditemukan`: Data SPTJM & Surat Rekomendasi (SR) belum anda upload
@@ -42,8 +42,8 @@
 
 ### <img style="margin: 0 2px -1px 0" height=16 src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-07-04/50a84d541c2f7c791c9c3f9faeafe352.ico.png"> <img style="margin: 0 2px -1px 0" height=16 src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-07-04/afdcf7209fcd4b14fb521ee04f24e676.ico.png"> Console Browser
 
-1. Buka website <img style="margin: 0 2px -1px 0" height=16 src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-07-04/b80d9a0b14a2fd3c85d9bd57a537e96c.ico.png"> <a href="https://kampusmerdeka.kemdikbud.go.id/" target="_blank">kampusmerdeka.kemdikbud.go.id</a> melalui browser <img style="margin: 0 2px -1px 0" height=16 src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-07-04/deab7ab90e5c9a0c648f45bc67a0a4b9.ico.png"> Desktop PC / 💻 Laptop berikut:
-  * <img style="margin: 0 2px -1px 0" height=16 src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-07-04/50a84d541c2f7c791c9c3f9faeafe352.ico.png"> `Windows`: <img style="margin: 0 2px -1px 0" height=16 src="https://favicon-generator.org/https://www.google.com/chrome/static/images/chrome-logo-m100.svg"> Chrome / Firefox / Microsoft Edge / Opera / Brave / Vivaldi
+1. Buka website <a href="https://kampusmerdeka.kemdikbud.go.id/" target="_blank">kampusmerdeka.kemdikbud.go.id</a> melalui browser Desktop PC / Laptop berikut:
+  * <img style="margin: 0 2px -1px 0" height=16 src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-07-04/50a84d541c2f7c791c9c3f9faeafe352.ico.png"> `Windows`: Chrome / Firefox / Microsoft Edge / Opera / Brave / Vivaldi
     
   * <img style="margin: 0 2px -1px 0" height=16 src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-07-04/afdcf7209fcd4b14fb521ee04f24e676.ico.png"> `macOS` | Safari
 2. Pastikan anda telah login
