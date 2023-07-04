@@ -4,7 +4,7 @@
 
 <div align="center">
 
-### Sebuah Userscript Untuk Mengecek Status Data SPTJM & SR Kampus Merdeka Batch 5 Tahun 2023
+### Sebuah Userscript Untuk Mengecek Status Data SPTJM & Surat Rekomendasi (SR) Kampus Merdeka Batch 5 Tahun 2023
 
 [![](https://img.shields.io/badge/Author-okkidwi-green.svg)](https://github.com/okkdwi)
 [![](https://img.shields.io/github/license/okkidwi/chathub?Cek-Status-Data-SPTJM-SR-Kampus-Merdeka=green)](../LICENSE.md)
@@ -18,4 +18,19 @@
 
 </div>
 
+##
 
+## ✨ Fitur
+
+- Menampilkan status data SPTJM & Surat Rekomendasi (SR) Kampus Merdeka yang telah anda upload di https://kampusmerdeka.kemdikbud.go.id seperti:
+  * Status KESALAHAN, SKRIP GAGAL MENGURAI DATA ANDA: skrip tidak berjalan dengan sempurna, install kembali skrip diatas
+  * Status Data SPTJM atau SURAT REKOMENDASI tidak ditemukan: data SPTJM & Surat Rekomendasi (SR) belum anda upload
+  * %c[${dateTimeWIB} WIB] Status SPTJM anda adalah %c${statusUserSptjm}
+  * | %c[${dateTimeWIB} WIB]                                                                        | %c${statusUserSptjm}                                                                                       |
+| --------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| Hari: Numeric, contoh: Senin | ON_REVIEW: Data SPTJM & Surat Rekomendasi (SR) anda sedang dalam proses review
+| Tanggal: Numeric, contoh: 15 | VERIFIED: Data SPTJM & Surat Rekomendasi (SR) anda telah terverifikasi
+| Bulan: Long, contoh: Januari | REJECTED: Data SPTJM & Surat Rekomendasi (SR) anda ditolak
+| Tahun: Numerik, contoh: 2023
+| Jam & Menit: Numerik, 14.00
+| Zona Waktu: Indonesia/Asia/Jakarta (WIB)
