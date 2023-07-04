@@ -1,6 +1,6 @@
 ![image](https://github.com/okkidwi/Cek-Status-Data-SPTJM-SR-Kampus-Merdeka/assets/64502893/bcb0b5ff-801b-4c7b-989d-cc84b04c2d65)
 
-<h1 align="center">Cek Status Surat Rekomendasi (SR) SPTJM & SR Kampus Merdeka</h1>
+<h1 align="center">Cek Status SPTJM & Surat Rekomendasi (SR) Kampus Merdeka</h1>
 
 <div align="center">
 
