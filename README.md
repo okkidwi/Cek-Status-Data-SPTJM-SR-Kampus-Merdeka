@@ -20,7 +20,7 @@
 
 ## ✨ Fitur
 
-- Menampilkan status data SPTJM & Surat Rekomendasi (SR) Kampus Merdeka yang telah anda upload di website <a href="https://kampusmerdeka.kemdikbud.go.id/">kampusmerdeka.kemdikbud.go.id</a> seperti:
+- Menampilkan status data SPTJM & Surat Rekomendasi (SR) Kampus Merdeka yang telah anda upload di website <a href="https://kampusmerdeka.kemdikbud.go.id/" target="_blank">kampusmerdeka.kemdikbud.go.id</a> seperti:
   
   * Status `KESALAHAN, SKRIP GAGAL MENGURAI DATA ANDA`: Skrip tidak berjalan dengan sempurna, instal kembali skrip diatas
   * Status `Data SPTJM atau SURAT REKOMENDASI tidak ditemukan`: Data SPTJM & Surat Rekomendasi (SR) belum anda upload
@@ -40,7 +40,7 @@
 
 ### <img style="margin: 0 2px -1px 0" height=16 src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-07-04/50a84d541c2f7c791c9c3f9faeafe352.ico.png"> <img style="margin: 0 2px -1px 0" height=16 src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-07-04/afdcf7209fcd4b14fb521ee04f24e676.ico.png"> Console Browser:
 
-1. Buka website <a href="https://kampusmerdeka.kemdikbud.go.id/">kampusmerdeka.kemdikbud.go.id</a> menggunakan desktop PC / Laptop | Windows / macOS
+1. Buka website <a href="https://kampusmerdeka.kemdikbud.go.id/" target="_blank">kampusmerdeka.kemdikbud.go.id</a> menggunakan desktop PC / Laptop | Windows / macOS
 2. Pastikan anda telah login
 3. Buka devtools pada browser anda dengan cara:
   * <img style="margin: 0 2px -1px 0" height=16 src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-07-04/50a84d541c2f7c791c9c3f9faeafe352.ico.png"> `Windows` | Chrome / Firefox / Microsoft Edge / Opera / Brave / Vivaldi , gunakan shortcut keyboard `CTRL + SHIFT + J` / `Klik Kanan > Inspect > Console`
