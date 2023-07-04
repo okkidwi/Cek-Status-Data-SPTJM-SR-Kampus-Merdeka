@@ -23,6 +23,7 @@
 ## ✨ Fitur
 
 - Menampilkan status data SPTJM & Surat Rekomendasi (SR) Kampus Merdeka yang telah anda upload di https://kampusmerdeka.kemdikbud.go.id seperti:
+  
   * Status `KESALAHAN, SKRIP GAGAL MENGURAI DATA ANDA`: skrip tidak berjalan dengan sempurna, install kembali skrip diatas
   * Status `Data SPTJM atau SURAT REKOMENDASI tidak ditemukan`: data SPTJM & Surat Rekomendasi (SR) belum anda upload
   * `(Hari, Tanggal Bulan Tahun pukul [Jam & Menit] Zona Waktu)` Status SPTJM anda adalah `(Status Data)`
