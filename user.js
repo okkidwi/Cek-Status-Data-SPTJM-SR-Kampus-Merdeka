@@ -5,7 +5,7 @@
 // @description  Gunakan shortcut keyboard CTRL + SHIFT + J (Windows) / CMD + OPTION + J (macOS) pada browser untuk melihat status data anda
 // @author       Okki Dwi | https://linktr.ee/okkidwi
 // @match        https://kampusmerdeka.kemdikbud.go.id/*
-// @icon         https://raw.githubusercontent.com/okkidwi/Cek-Status-Data-SPTJM-SR-Kampus-Merdeka/main/images/icon-kampus-merdeka.png
+// @icon         https://raw.githubusercontent.com/okkidwi/cek-status-data-sptjm-sr-kampus-merdeka/main/images/icon-kampus-merdeka.png
 // @grant        none
 // ==/UserScript==
 
