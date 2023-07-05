@@ -24,7 +24,7 @@
 
 ##
 
-[✨ Fitur](#-fitur) &nbsp;&nbsp;|&nbsp;&nbsp; [⚒️ Instalasi](-instalasi) &nbsp;&nbsp;|&nbsp;&nbsp; [📜 Riwayat Perubahan](#-riwayat-perubahan) &nbsp;&nbsp;|&nbsp;&nbsp; [⭐ Star History](#-star-history)
+[✨ Fitur](#-fitur) &nbsp;&nbsp;|&nbsp;&nbsp; [⚒️ Instalasi](#-instalasi) &nbsp;&nbsp;|&nbsp;&nbsp; [📜 Riwayat Perubahan](#-riwayat-perubahan) &nbsp;&nbsp;|&nbsp;&nbsp; [⭐ Star History](#-star-history)
 
 </div>
 
