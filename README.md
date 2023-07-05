@@ -5,7 +5,7 @@
 <div align="center">
 
 ### Sebuah Userscript yang Ditulis Menggunakan `Javascript`
-⚠️ Akurasi Status Data yang Ditampilkan Tidak Selalu Dapat Dijadikan Acuan ⚠️
+⚠️ *Akurasi Status Data yang Ditampilkan Tidak Selalu Dapat Dijadikan Acuan* ⚠️
 
 [![](https://img.shields.io/badge/Author-okkidwi-green.svg)](https://github.com/okkidwi)
 [![](https://img.shields.io/github/license/okkidwi/cek-status-data-sptjm-sr-kampus-merdeka?color=blue)](https://github.com/okkidwi/cek-status-data-sptjm-sr-kampus-merdeka/blob/main/LICENSE)
