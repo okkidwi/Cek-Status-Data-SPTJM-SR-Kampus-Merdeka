@@ -6,6 +6,7 @@
 // @author       Okki Dwi | https://linktr.ee/okkidwi
 // @match        https://kampusmerdeka.kemdikbud.go.id/*
 // @icon         https://raw.githubusercontent.com/okkidwi/cek-status-data-sptjm-sr-kampus-merdeka/main/images/icon-kampus-merdeka.png
+// @license      GNU GPLv3
 // @grant        none
 // ==/UserScript==
 
