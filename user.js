@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Cek Status Data SPTJM & SR | Kampus Merdeka Batch 5 2023
-// @namespace    @kbiits & Okki Dwi
+// @namespace    javascript
 // @version      1.0
-// @description  Gunakan perintah CTRL + SHIFT + J (Windows) / CMD + OPTION + J (MacOS) pada browser Chrome / Microsoft Edge / Safari untuk melihat status data anda
+// @description  Gunakan shortcut keyboard CTRL + SHIFT + J (Windows) / CMD + OPTION + J (MacOS) pada browser untuk melihat status data anda
 // @author       Okki Dwi | https://linktr.ee/okkidwi
 // @match        https://kampusmerdeka.kemdikbud.go.id/*
 // @icon         https://raw.githubusercontent.com/okkidwi/Cek-Status-Data-SPTJM-SR-Kampus-Merdeka/main/images/icon-kampus-merdeka.png
