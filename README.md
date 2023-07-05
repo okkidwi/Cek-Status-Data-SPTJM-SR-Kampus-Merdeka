@@ -53,7 +53,7 @@
 ### <img style="margin: 0 2px -1px 0" height=16 src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-07-04/50a84d541c2f7c791c9c3f9faeafe352.ico.png"> <img style="margin: 0 2px -1px 0" height=16 src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-07-04/afdcf7209fcd4b14fb521ee04f24e676.ico.png"> Console Browser
 
 <details>
-<summary>TEKAN UNTUK MELIHAT KODE</summary>
+<summary>TEKAN UNTUK MELIHAT</summary>
 
 1. Buka website <a href="https://kampusmerdeka.kemdikbud.go.id/" target="_blank">kampusmerdeka.kemdikbud.go.id</a> melalui browser Desktop PC / Laptop berikut:
   * <img style="margin: 0 2px -1px 0" height=16 src="https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-07-04/50a84d541c2f7c791c9c3f9faeafe352.ico.png"> `Windows`: *Chrome / Firefox / Microsoft Edge / Opera / Brave / Vivaldi*
@@ -241,7 +241,7 @@ main();
 ### <img style="margin: 0 2px -0.065rem 0" height=17 src="https://i.imgur.com/SATGr8j.png"> <img style="margin: 0 2px -0.035rem 1px" height=17.5 src="https://i.imgur.com/wcCg3al.png"> Userscript
 
 <details>
-<summary>TEKAN UNTUK MELIHAT KODE</summary>
+<summary>TEKAN UNTUK MELIHAT</summary>
 
 1. Instal ekstensi <a href="https://www.tampermonkey.net/index.php" target="_blank">Tampermonkey</a>
 2. Instal userscript <a href="" target="_blank">Cek Status Data SPTJM & SR | Kampus Merdeka Batch 5 2023</a> (akan dimuat secara otomatis di pengelola skrip pengguna)
