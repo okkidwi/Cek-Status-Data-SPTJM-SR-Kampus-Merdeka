@@ -269,7 +269,7 @@ main();
 
 ## 📜 Riwayat Perubahan
 
-# v1.0 - Menambahkan dukungan untuk Kampus Merdeka Batch 5 Tahun 2023
+#### v1.0 - Menambahkan dukungan untuk Kampus Merdeka Batch 5 Tahun 2023
 
 ## ⭐ Star History
 
