@@ -19,9 +19,10 @@
 
 <a href="#--console-browser" target="_blank"><img height="44px" src="https://res.cloudinary.com/practicaldev/image/fetch/s--XH4hlkWW--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/uu01niebng6v2i5ptznz.jpg" alt="Instal Melalui Console Browser"></a>
 <a href="#--userscript" target="_blank"><img height="44px" src="https://raw.githubusercontent.com/adamlui/chatgpt-widescreen/main/media/images/badges/greasy-fork/available-on-greasy-fork-gold-square-border-light-816x262.png" alt="Instal Melalui Usercript"></a>
-</div>
 
 [✨ Fitur](#-fitur) &nbsp;&nbsp;|&nbsp;&nbsp; [⚒️ Instalasi](#-instalasi) &nbsp;&nbsp;|&nbsp;&nbsp; [📜 Riwayat Perubahan](#-riwayat-perubahan) &nbsp;&nbsp;|&nbsp;&nbsp; [⭐ Star History](#-star-history)
+
+</div>
 
 ## ✨ Fitur
 
